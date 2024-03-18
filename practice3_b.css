@@ -1,0 +1,212 @@
+   
+body{
+    background-color: rgb(44, 44, 49);
+
+    margin-left: 10%;
+   
+    animation-duration: 2s;
+}
+@keyframes stylee {
+    from{font-size: small;}to
+    {
+        font-size: larger;
+    }
+}
+#info{
+   height: 60px;
+   width: 60%;
+  
+  
+   border-radius: 2px solid rgb(133, 4, 4);
+
+}
+#one{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+#ret{
+    background-color: rgb(83, 83, 88);
+    color: white;
+    height: 60px;
+    width: 1100px;
+   
+    
+}
+
+#my_cv{
+ margin-left: 50%;
+ margin-bottom: 200px;
+
+}
+button{
+    background-color: red;
+}
+
+a{
+    color: rgb(245, 241, 237);
+    font-size: auto;
+    margin-right: 120px;
+}
+
+
+#rr{
+    color: orangered;
+    font-size: 25px;
+}
+#contact{
+    height: 50px;
+    width: 200px;
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: larger;
+   
+    margin-left: 10%;
+    color: red;
+    text-align: center;
+   
+}
+#qq{
+    height: 30px;
+    width: 70px;
+    margin-left: 10%;
+    border: 2px solid white;
+}
+#face{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 60px;
+    margin-right: 60%;
+    background-image: url("icons8-facebook-50.png");
+    display: inline-block;
+    background-size: cover;
+
+}
+#insta{
+    height: 50px;
+    width: 50px;
+   
+     margin-bottom: 50px;
+     margin-right: 60%;
+    background-image: url("icons8-instagram-50.png");
+    display: inline-block;
+    background-size: cover; 
+}
+#link{
+    height: 50px;
+    width: 50px;
+   
+     margin-bottom: 50px;
+     margin-right: 60%;
+    background-image: url("icons8-linkedin-50.png");
+    display: inline-block;
+    background-size: cover; 
+}
+#second_block{
+    margin-top: 90px;
+  
+    height: 300px;
+    width: 700px; 
+    display: flex; 
+    animation: image 3s;
+    border-radius: 50%;
+}
+
+#one:hover{
+  
+}
+  #info{
+    height: 60px;
+margin-bottom: 200px;
+ 
+  }
+  #three{
+    color: red;
+  }
+
+#image{
+    height: 400px;
+    width: 400px;
+    margin-left: 600px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px  rgb(236, 218, 218));
+}
+
+
+#skill{
+   height: 30px;
+   width: 100px;
+   text-align: center;
+   margin-left:45%;
+   margin-bottom: 5%;
+  font-size: larger;
+ background-color: rgb(203, 67, 9);
+  
+  filter: drop-shadow(10px 10px 10px  rgb(236, 218, 218));
+    
+}
+#footer{
+ height: 300px;
+ width:auto;
+ border-radius: 2px solid rgb(30, 29, 29);
+
+}
+
+#logo2{
+
+    height: 100px;
+    width: 100px;
+   
+    margin-left: 450%;
+    margin-bottom: 150%;
+    position: relative;
+    bottom: 100px;
+   background-image: url("java\ icon.png");
+  display: inline-block;
+  
+   background-size: cover;
+
+}
+#logo{
+    height: 1000px;
+    width: 100px;
+   
+}
+#logo1{
+  
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+     margin-left: 300px;
+    
+  background-image: url("html\ icon.png");
+  display: flex;
+    background-size: cover;
+}
+#logo3{
+   
+    height: 100px;
+    width: 100px;
+   
+    display: flex;
+    display: inline-block;
+   margin-left: 600px;
+    position: relative;
+    bottom: 36%;
+    right: 20px;
+   background-image: url("css\ image.jpg");
+   background-size: contain;
+
+}
+#logo4{
+    height: 100px;
+    width: 100px;
+   
+    display: flex;
+    display: inline-block;
+   margin-left: 720px;
+    position: relative;
+    bottom: 47%;
+   background-image: url("javascript\ icon.png");
+    background-size: cover;
+}

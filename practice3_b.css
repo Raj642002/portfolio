@@ -16,6 +16,7 @@ background-size: cover;
 #info{
    height: 40px;
    width: 60%;
+   position: relative;
    border-radius: 2px solid white ;
   
   
@@ -38,18 +39,28 @@ background-size: cover;
 }
 
 #my_cv{
- margin-left: 70%;
- margin-bottom: 400px;
-
+    position: relative;
+    height: 100px;
+    width: 100px;
+  margin-left: 70%;
+ margin-bottom: 800px;
+ text-align: center;
 }
 button{
-    background-color: red;
+    position: relative;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    bottom: 30px;
+    background-color: red;   
 }
+
 
 a{
     color: rgb(245, 241, 237);
     font-size: auto;
     margin-right: 120px;
+    text-decoration: none;
 }
 
 
@@ -152,6 +163,8 @@ margin-bottom: 200px;
    height: 30px;
    width: 100px;
    text-align: center;
+   position: relative;
+   bottom: 40px;
    margin-left:45%;
    margin-bottom: 50%;
   font-size: larger;
